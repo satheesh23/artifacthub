@@ -1,0 +1,8 @@
+repositoryID: 6f1d3c19-ac16-477f-b00d-a08919c4cfeb
+owners: # (optional, used to claim repository ownership)
+  - name: user1
+    email: user1@email.com
+ignore: # (optional, packages that should not be indexed by Artifact Hub)
+  - name: package1
+  - name: package2 # Exact match
+    version: beta # Regular expression (when omitted, all versions are ignored)
