@@ -188,3 +188,25 @@ spec:
     - name: version
       value: ">= 0.8.0, < 1.0.0"
 ```
+### Hub Resolver
+
+```yaml
+apiVersion: tekton.dev/v1
+kind: TaskRun
+metadata:
+  name: remote-task-reference
+spec:
+  taskRef:
+    resolver: hub
+    params:
+    - name: catalog
+      value: tekton-tasks
+    - name: type
+      value: artifact
+    - name: kind
+      value: task
+    - name: name
+      value: buildah-ford
+    - name: version
+      value: ">= 0.5.1, < 1.0.0"
+```
