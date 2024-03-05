@@ -188,7 +188,7 @@ spec:
     - name: version
       value: ">= 0.8.0, < 1.0.0"
 ```
-### Hub Resolver
+### Test Resolver
 
 ```
 apiVersion: tekton.dev/v1
