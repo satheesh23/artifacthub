@@ -168,7 +168,7 @@ When this runs, it will create a new GCE VM instance in the specified zone.
 
 ### Hub Resolver
 
-```yaml
+```
 apiVersion: tekton.dev/v1
 kind: TaskRun
 metadata:
@@ -190,7 +190,7 @@ spec:
 ```
 ### Hub Resolver
 
-```yaml
+```
 apiVersion: tekton.dev/v1
 kind: TaskRun
 metadata:
