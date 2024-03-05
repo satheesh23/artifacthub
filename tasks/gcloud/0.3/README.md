@@ -184,7 +184,7 @@ spec:
     - name: kind
       value: task
     - name: name
-      value: git-clone-ford
+      value: git-clone
     - name: version
       value: ">= 0.8.0, < 1.0.0"
 ```
