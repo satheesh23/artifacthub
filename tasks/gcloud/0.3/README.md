@@ -187,6 +187,7 @@ spec:
       value: git-clone
     - name: version
       value: ">= 0.8.0, < 1.0.0"
+      value: ">= 0.8.1, < 4.0.0"
 ```
 ### Test Resolver psathe10
 
@@ -211,6 +212,7 @@ spec:
       value: ">= 0.5.1, < 1.0.0"
       value: ">= 0.6.1, < 2.0.0"
       value: ">= 0.7.1, < 3.0.0"
+      value: ">= 0.8.1, < 4.0.0"
 ```
 
 ### Test Resolver psathe10-with-fix
