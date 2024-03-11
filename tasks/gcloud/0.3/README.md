@@ -209,4 +209,5 @@ spec:
       value: buildah-ford
     - name: version
       value: ">= 0.5.1, < 1.0.0"
+      value: ">= 0.6.1, < 2.0.0"
 ```
