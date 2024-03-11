@@ -166,29 +166,6 @@ When this runs, it will create a new GCE VM instance in the specified zone.
 
 ## Task Installation
 
-### Hub Resolver
-
-```
-apiVersion: tekton.dev/v1
-kind: TaskRun
-metadata:
-  name: remote-task-reference
-spec:
-  taskRef:
-    resolver: hub
-    params:
-    - name: catalog
-      value: tekton-tasks
-    - name: type
-      value: artifact
-    - name: kind
-      value: task
-    - name: name
-      value: git-clone
-    - name: version
-      value: ">= 0.8.0, < 1.0.0"
-      value: ">= 0.8.1, < 4.0.0"
-```
 ### Test Resolver psathe10
 
 ```
